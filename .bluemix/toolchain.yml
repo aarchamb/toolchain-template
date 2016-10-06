@@ -14,8 +14,7 @@ alerting:
 
 #Deployment
 deploy:
-  schema:
-    $ref: deploy.json
+  schema: deploy.json
   service-category: pipeline
   parameters:
     dev-region: "{{region}}"
@@ -27,6 +26,3 @@ deploy:
     dev-space: dev
     qa-space: qa
     prod-space: prod
-    orders-app-name: "{{orders-api-repo.parameters.repo_name}}"
-    catalog-app-name: "{{catalog-api-repo.parameters.repo_name}}"
-    ui-app-name: "{{ui-repo.parameters.repo_name}}"
