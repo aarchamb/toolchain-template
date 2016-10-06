@@ -2,7 +2,6 @@
 name: "OMaaS Toolchain"
 description: "Coming soon."
 version: 0.1
-image: data:image/png;base64,$file(simple-toolchain-cont.png,base64)
 required:
  - alerting
  - eventing
