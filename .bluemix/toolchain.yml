@@ -44,6 +44,10 @@ hello-world-build:
 webide:
   service_id: orion
 
+#Alert Notification
+alerting:
+  service_id: alertnotification
+
 #Deployment
 deploy:
   schema:
@@ -54,8 +58,3 @@ deploy:
     prod-organization: "{{organization}}"
     prod-space: "{{space}}"
     hello-world-name: "{{hello-world-repo.parameters.repo_name}}"
-
-#Alert Notification
-alerting:
-  service_id: alertnotification
-  include: alertnotification.yml
