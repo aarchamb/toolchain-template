@@ -1,5 +1,7 @@
 ---
 default_locale: en
+locales:
+  $ref: locales.yml
 name: "Test toolchain"
 description: "Test"
 version: 0.2
