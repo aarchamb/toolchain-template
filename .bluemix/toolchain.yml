@@ -2,7 +2,7 @@
 name: "Cloud Event Management"
 description: "This toolchain will help your Operations and DevOps team to achieve efficient and reliable operational health, service quality, and continuous improvement goals. Harness hundreds of disparate sources of measurement, synchronize your teams, and expedite mean time to repair; all with immediate time to value and low total cost of ownership."
 version: 0.1
-image: data:image/png;base64,$file(toolchain.png,base64)
+image: data:image/svg+xml;base64,$file(toolchain.svg,base64)
 required:
  - alerting
  - eventing
